@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "livereload": "^0.9.3",
+    "mongoose": "^6.3.2",
+    "nodemailer": "^6.7.5"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon --ext js,ejs --ignore public"
+  },
+  "name": "test-may-5",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

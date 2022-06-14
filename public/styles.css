@@ -1,0 +1,232 @@
+
+  
+  .allpag {
+    background-color: rgb(177, 198, 238) !important; 
+  }
+  
+  /*header*/
+  header {
+    position: relative;
+    border: 2px solid, black; 
+    width: 100%;
+    /* margin-right: auto;
+    margin-left: auto; */
+    scroll-margin-top: 20%;
+    background-color: rgb(123, 166, 206);
+    border-radius: 30px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+
+  }
+
+  .pages-header {
+    border: 4px solid rgb(100, 100, 235);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* background-color: white; */
+    font-size: 20px;
+    border-radius: 30px;
+    border-style: outset; 
+  }
+
+  .links-header {
+    text-decoration: none;
+  }
+
+  .fa-solid , .fa-cart-shopping {
+    font-size: 15px !important;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial; */
+    margin-top: 5px;
+    
+  }
+
+  .fa-star{
+    cursor: pointer;
+    transition: 5ms;
+    opacity: 0.8;
+    position: relative;
+    left: 5px;
+  }
+
+  .fa-star:hover{
+    font-size: 20px;
+    color: orange !important;
+   
+  }
+ 
+
+  .topic {
+    text-align: center;
+    color: white;
+    margin-right: 21%;
+    margin-left: 15%;
+    margin:auto;
+  }
+
+  
+  #welcome {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    margin-top: 6%;
+    margin-bottom: -12%;
+  }
+
+  .footer {
+    display: block;
+    background-color: blue;
+    color: white;
+    margin: 15px 0;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 20%;
+    text-decoration: none;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+  #foo{
+margin-top: 20%;
+
+  }
+
+
+  #clockStyle {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #clockDisplay {
+    margin: auto;
+    width: 100px;
+    font: size 20px;
+    padding: 1px;
+    height: 20px;
+    color: rgb(226, 12, 12);
+    padding-top: 3px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .chColor {
+    background-color: rgb(233, 163, 32);
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    border-style: outset; 
+  }
+
+  .font {
+    font-size: x-large;
+  }
+
+  .card{
+    /* position: relative; */
+    /* display: flex; */
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(169, 243, 126, 0.308);
+    background-clip: border-box;
+    border: 2px solid rgba(20, 2, 2, 0.884);
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 15%;
+    height: 350px;
+
+  }
+
+  .card-title{
+    font-size: 20px; 
+     text-align: center;
+    display: block;
+    /* margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    font-size: 1.25rem;
+
+}
+
+  .card-img-top{
+    border-radius: 10%;
+    background-color: rgb(255, 0, 0);
+    /* width: 35%; */
+    margin-left:auto;
+    margin-right: auto;
+    height: 110px;
+    /* border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    width: 70%;
+    vertical-align: middle; */
+  }
+
+  /* p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+  .Click{
+    color: #fff;
+    background-color: #0d6efd;
+    /* border-color: #0d6efd; */
+    display: inline-block;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+    margin-left: 2rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+  .colorOne{
+    background-color: red !important;
+  }
+
+  #SEC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  } 
+
+  a:hover{
+    background-color: yellowgreen;
+  }
+
+  .dialog{
+background-color: rgb(226, 153, 84);
+
+  }
+
+  #QuantityOk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#Stored{
+  background-color: red;
+  margin-left: 39.5%;
+  margin-right: 39.5%; 
+display: none;
+
+
+}
